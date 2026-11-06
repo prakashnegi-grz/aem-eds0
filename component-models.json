@@ -207,11 +207,68 @@
         "value": ""
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_title",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "content_titleType",
+        "label": "Title type",
+        "value": "h1",
+        "options": [
+          {
+            "name": "H1",
+            "value": "h1"
+          },
+          {
+            "name": "H2",
+            "value": "h2"
+          }
+        ]
+      },
+      {
         "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "name": "content_description",
+        "label": "Description"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "content_cta",
+        "label": "Button link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_ctaText",
+        "label": "Button text"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "content_ctaType",
+        "label": "Button style",
+        "value": "primary",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          }
+        ]
       }
     ]
   }
